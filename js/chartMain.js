@@ -31,15 +31,23 @@ let allCoinChart = new Chart(_CHART, {
     legend:{
       display:false
     },
+    tooltips: {
+         enabled: false
+    },
     scales: {
       xAxes: [{
+        display: false,
                   gridLines: {
                       display:false
                   }
               }],
       yAxes: [{
+        display: false,
                   gridLines: {
                       display:false
+                  },
+                  ticks:{
+                    beginAtZero: true
                   }
               }]
     }
