@@ -31,9 +31,6 @@ let allCoinChart = new Chart(_CHART, {
     legend:{
       display:false
     },
-    tooltips: {
-         enabled: false
-    },
     scales: {
       xAxes: [{
         display: false,
